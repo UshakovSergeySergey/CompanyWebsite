@@ -18,7 +18,7 @@ class MainContent extends React.Component {
         return (
             <div id='main-content'>
                 <Switch>
-                    <Route exact path='/CompanyName/'               render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
+                    <Route exact path='/CompanyWebsite/'            render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ SectionPathEnum.Main }      render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ SectionPathEnum.Company }   render={() => ( <CompanyPage    webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ SectionPathEnum.Contacts }  render={() => ( <ContactsPage   webSiteStructure={ webSiteStructure } /> )} />
