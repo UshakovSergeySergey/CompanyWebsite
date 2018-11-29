@@ -1,0 +1,25 @@
+#header-block {
+    background-color: antiquewhite;
+}
+
+#footer-block {
+    background-color: aquamarine;
+}
+
+#navigation-bar {
+    background-color: aqua;
+}
+
+#main-content {
+    background-color: coral;
+}
+
+.social-media-icon {
+    width: 64px;
+    height: 64px;
+}
+
+#map-office-label {
+    font-size: 20px;
+    color: red;
+}

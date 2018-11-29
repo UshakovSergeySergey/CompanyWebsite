@@ -1,0 +1,134 @@
+{
+  "CompanyPhoneNumber": "+7 (777) 777-77-77",
+  "CompanyFaxNumber": "+7 (777) 777-77-77",
+  "CompanyEmail": "hello@company.com",
+  "CompanyLegalAddress": "г. Москва, ул. Пельменная 28, 123456",
+  "CompanyOfficeAddress": "г. Москва, ул. Пельменная 28, 123456",
+  "CompanyWorkingHours": "с 10 до 18 пн-пт, сб-вс выходной",
+  "CompanyMailCorrespondenceAddress": "г. Москва, ул. Пельменная 28, 123456",
+  "WebSiteSections": [
+    {
+      "OrdinalNumber": 0,
+      "Name": "Главная",
+      "Link": "/main",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 1,
+      "Name": "Компания",
+      "Link": "/company",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 2,
+      "Name": "Контакты",
+      "Link": "/contacts",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 3,
+      "Name": "Портфолио",
+      "Link": "/portfolio",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 4,
+      "Name": "Услуги",
+      "Link": "/services",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 5,
+      "Name": "Клиенты",
+      "Link": "/clients",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 6,
+      "Name": "Новости",
+      "Link": "/news",
+      "IsHidden": false
+    }
+  ],
+  "LinksToSocialMedia": [
+    {
+      "OrdinalNumber": 0,
+      "Icon": "facebook_icon.png",
+      "Link": "https://www.facebook.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 1,
+      "Icon": "vkontakte_icon.png",
+      "Link": "https://vk.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 2,
+      "Icon": "odnoklassniki_icon.png",
+      "Link": "https://ok.ru/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 3,
+      "Icon": "twitter_icon.png",
+      "Link": "https://twitter.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 4,
+      "Icon": "telegram_icon.png",
+      "Link": "https://telegram.org/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 5,
+      "Icon": "instagram_icon.png",
+      "Link": "https://www.instagram.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 6,
+      "Icon": "googleplus_icon.png",
+      "Link": "https://plus.google.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 7,
+      "Icon": "youtube_icon.png",
+      "Link": "https://www.youtube.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 8,
+      "Icon": "vimeo_icon.png",
+      "Link": "https://vimeo.com/",
+      "IsHidden": false
+    },
+    {
+      "OrdinalNumber": 9,
+      "Icon": "sketchfab_icon.png",
+      "Link": "https://sketchfab.com/",
+      "IsHidden": false
+    }
+  ],
+  "ClientsPage": {
+    "Caption": "Наши клиенты",
+    "Text": "можно пару слов о том какие у нас крутые клиенты, какие они респектабельные, какие мы респектабельные и надёжные, мол нам доверяют",
+    "ClientLogos": [
+      {
+        "OrdinalNumber": 0,
+        "Icon": "sberbank_logo.png",
+        "IsHidden": false
+      },
+      {
+        "OrdinalNumber": 1,
+        "Icon": "ingrad_logo.png",
+        "IsHidden": false
+      }
+    ]
+  },
+  "ContactsPage": {
+    "Caption": "Контакты"
+  }
+}
