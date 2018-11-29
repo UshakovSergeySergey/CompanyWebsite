@@ -10,43 +10,43 @@
     {
       "OrdinalNumber": 0,
       "Name": "Главная",
-      "Link": "/CompanyWebsite/main",
+      "Link": "/main",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 1,
       "Name": "Компания",
-      "Link": "/CompanyWebsite/company",
+      "Link": "/company",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 2,
       "Name": "Контакты",
-      "Link": "/CompanyWebsite/contacts",
+      "Link": "/contacts",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 3,
       "Name": "Портфолио",
-      "Link": "/CompanyWebsite/portfolio",
+      "Link": "/portfolio",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 4,
       "Name": "Услуги",
-      "Link": "/CompanyWebsite/services",
+      "Link": "/services",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 5,
       "Name": "Клиенты",
-      "Link": "/CompanyWebsite/clients",
+      "Link": "/clients",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 6,
       "Name": "Новости",
-      "Link": "/CompanyWebsite/news",
+      "Link": "/news",
       "IsHidden": false
     }
   ],
