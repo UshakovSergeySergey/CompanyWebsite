@@ -1,12 +1,12 @@
 let SectionPathEnum = Object.freeze({
-    Main: '/main',
-    Company: '/company',
-    Contacts: '/contacts',
-    Portfolio: '/portfolio',
-    Services: '/services',
-    Clients: '/clients',
-    News: '/news',
-    NotFound: '/pageNotFound'
+    Main: '/CompanyWebsite/main',
+    Company: '/CompanyWebsite/company',
+    Contacts: '/CompanyWebsite/contacts',
+    Portfolio: '/CompanyWebsite/portfolio',
+    Services: '/CompanyWebsite/services',
+    Clients: '/CompanyWebsite/clients',
+    News: '/CompanyWebsite/news',
+    NotFound: '/CompanyWebsite/pageNotFound'
 });
 
 export { SectionPathEnum };
