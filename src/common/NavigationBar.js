@@ -10,7 +10,7 @@ class NavigationBar extends React.Component {
         const sectionList = sections.map(section => {
             return (
                 <li key={ section.OrdinalNumber }>
-                    <Link to={ section.Link }>{ section.Name }</Link>
+                    <Link to={ process.env.PUBLIC_URL + section.Link }>{ section.Name }</Link>
                 </li>
             );
         });

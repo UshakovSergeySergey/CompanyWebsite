@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f707c801-6637-4744-b182-45ef9be01796" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/common/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/NavigationBar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,26 +77,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="11" />
+          <entry key="js" value="13" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="11" />
+          <entry key="JavaScript" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="196" />
+          <entry key="js" value="202" />
           <entry key="json" value="192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="192" />
-          <entry key="JavaScript" value="196" />
+          <entry key="JavaScript" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -116,11 +117,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/Header.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/NavigationBar.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -181,8 +200,6 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/SectionEnum.js" />
         <option value="$PROJECT_DIR$/src/sections/PageNotFound.js" />
-        <option value="$PROJECT_DIR$/src/common/Footer.js" />
-        <option value="$PROJECT_DIR$/src/common/NavigationBar.js" />
         <option value="$PROJECT_DIR$/src/sections/MainPage.js" />
         <option value="$PROJECT_DIR$/src/sections/CompanyPage.js" />
         <option value="$PROJECT_DIR$/src/sections/NewsPage.js" />
@@ -200,6 +217,8 @@
         <option value="$PROJECT_DIR$/public/data.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/common/Header.js" />
+        <option value="$PROJECT_DIR$/src/common/Footer.js" />
+        <option value="$PROJECT_DIR$/src/common/NavigationBar.js" />
       </list>
     </option>
   </component>
@@ -330,12 +349,12 @@
       <workItem from="1543495799805" duration="397000" />
       <workItem from="1543499468048" duration="919000" />
       <workItem from="1543500939491" duration="1656000" />
-      <workItem from="1543555643728" duration="597000" />
+      <workItem from="1543555643728" duration="705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40538000" />
+    <option name="totallyTimeSpent" value="40646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -396,13 +415,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/SectionLink.js" />
-    <entry file="file://$PROJECT_DIR$/src/common/NavigationBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/PortfolioPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -435,13 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -545,8 +550,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Header.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/NavigationBar.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
