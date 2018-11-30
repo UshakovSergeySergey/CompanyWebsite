@@ -21,7 +21,7 @@ class Footer extends React.Component {
         const linkList = links.map(link => {
             return (
                 <a key={ link.OrdinalNumber } href={ link.Link } target='_blank' rel='noopener noreferrer'>
-                    <img className='social-media-icon' src={ link.Icon } alt={ link.Link }/>
+                    <img className='social-media-icon' src={ process.env.PUBLIC_URL + link.Icon } alt={ link.Link }/>
                 </a>
             );
         });

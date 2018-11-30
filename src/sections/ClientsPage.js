@@ -11,7 +11,7 @@ class ClientsPage extends React.Component {
 
         const logoList = logos.map(logo => {
             return (
-                <img key={ logo.OrdinalNumber } className='client-logo' src={ logo.Icon } alt='missing text' />
+                <img key={ logo.OrdinalNumber } className='client-logo' src={ process.env.PUBLIC_URL + logo.Icon } alt='missing text' />
             );
         });
         return (<div>{ logoList }</div>);
