@@ -6,11 +6,18 @@ import { Link } from "react-router-dom";
 class Footer extends React.Component {
     getLinksToSections = () => {
         const webSiteStructure = this.props.webSiteStructure;
+        const currentSection = this.props.currentSection;
         const sections = webSiteStructure.getListOfSections();
         const sectionList = sections.map(section => {
+            let isActive = '';
+            if(currentSection === section.Link)
+                isActive = ' active active-menu-item';
+            let sectionChanged = (e) => {
+                this.props.sectionChanged(section.Link);
+            };
             return (
-                <li key={ section.OrdinalNumber }>
-                    <Link to={ process.env.PUBLIC_URL + section.Link }>{ section.Name }</Link>
+                <li className={ isActive } key={ section.OrdinalNumber }>
+                    <Link to={ process.env.PUBLIC_URL + section.Link } onClick={ sectionChanged }>{ section.Name }</Link>
                 </li>);
         });
         return (<ul>{ sectionList }</ul>);
@@ -43,7 +50,9 @@ class Footer extends React.Component {
 }
 
 Footer.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure),
+    currentSection: PropTypes.string.isRequired,
+    sectionChanged: PropTypes.func.isRequired
 };
 
 export { Footer };

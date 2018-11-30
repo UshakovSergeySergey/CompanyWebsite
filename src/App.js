@@ -5,10 +5,15 @@ import { Footer } from './common/Footer';
 import { NavigationBar } from './common/NavigationBar';
 import { MainContent } from './common/MainContent';
 import './main.css';
+import { SectionPathEnum } from './SectionPathEnum';
 
 class App extends Component {
     state = {
-        webSiteStructure: null
+        webSiteStructure: null,
+        currentSection: SectionPathEnum.Main
+    };
+    sectionChanged = (section) => {
+        this.setState({ currentSection: section });
     };
     componentDidMount() {
         fetch('data.json')
@@ -18,13 +23,15 @@ class App extends Component {
             );
     }
     render() {
-        const { webSiteStructure } = this.state;
+        const { webSiteStructure, currentSection } = this.state;
         return (
-            <div className='App'>
-                { webSiteStructure && (<Header webSiteStructure={ webSiteStructure } />) }
-                { webSiteStructure && (<NavigationBar webSiteStructure={ webSiteStructure } />) }
-                { webSiteStructure && (<MainContent webSiteStructure={ webSiteStructure }/>) }
-                { webSiteStructure && (<Footer webSiteStructure={ webSiteStructure } />) }
+            <div className='container'>
+                <div className='App'>
+                    { webSiteStructure && (<Header webSiteStructure={ webSiteStructure } currentSection={ currentSection } sectionChanged={ this.sectionChanged } />) }
+                    { /* webSiteStructure && (<NavigationBar webSiteStructure={ webSiteStructure } />) */ }
+                    { webSiteStructure && (<MainContent webSiteStructure={ webSiteStructure }/>) }
+                    { webSiteStructure && (<Footer webSiteStructure={ webSiteStructure } currentSection={ currentSection } sectionChanged={ this.sectionChanged } />) }
+                </div>
             </div>
         );
     }

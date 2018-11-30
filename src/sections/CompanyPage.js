@@ -3,8 +3,21 @@ import { SectionPathEnum } from '../SectionPathEnum';
 import { Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { WebSiteStructure } from '../WebSiteStructure';
+import { Employee } from '../Employee';
+import { EmployeeData } from '../EmployeeData';
 
 class CompanyPage extends React.Component {
+    getKeyEmployees = () => {
+        const webSiteStructure = this.props.webSiteStructure;
+        const employees = webSiteStructure.getListOfKeyEmployees();
+
+        const employeeList = employees.map(employee => {
+            return (
+                <Employee key={ employee.OrdinalNumber } data={ Object.assign(new EmployeeData(), employee) } />
+            );
+        });
+        return (<div>{ employeeList }</div>);
+    };
     render() {
         const webSiteStructure = this.props.webSiteStructure;
 
@@ -14,7 +27,9 @@ class CompanyPage extends React.Component {
 
         return (
             <div>
-                <p><b>КОМПАНИЯ</b></p>
+                <h1>{ webSiteStructure.CompanyPage.Caption }</h1>
+                <p>{ webSiteStructure.CompanyPage.Text }</p>
+                { this.getKeyEmployees() }
             </div>
         );
     }

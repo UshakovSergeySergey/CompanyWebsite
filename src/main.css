@@ -12,6 +12,7 @@
 
 #main-content {
     background-color: coral;
+    min-height: 1700px;
 }
 
 .social-media-icon {
@@ -22,4 +23,8 @@
 #map-office-label {
     font-size: 20px;
     color: red;
+}
+
+.active-menu-item {
+    background-color: cadetblue;
 }

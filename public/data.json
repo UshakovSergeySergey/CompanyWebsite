@@ -130,5 +130,39 @@
   },
   "ContactsPage": {
     "Caption": "Контакты"
+  },
+  "CompanyPage": {
+    "Caption": "О компании",
+    "Text": "текст с описанием того, какие мы успешные и прочий маркетинговый текст, когда основана, статистика по проектам, может инфа по количеству сотрудников",
+    "KeyEmployees": [
+      {
+        "OrdinalNumber": 0,
+        "IsHidden": false,
+        "Photo": "/pupkin_photo.png",
+        "Name": "Пупкин Василий Иванович",
+        "Position": "Chief Execution Officer",
+        "PhoneNumber": "+7(777)777-77-77",
+        "Email": "pupkin@company.com"
+      },
+      {
+        "OrdinalNumber": 1,
+        "IsHidden": false,
+        "Photo": "/petrov_photo.png",
+        "Name": "Петров Николай Андреевич",
+        "Position": "Chief Technology Officer",
+        "PhoneNumber": "+7(777)777-77-77",
+        "Email": "petrov@company.com"
+      },
+      {
+        "OrdinalNumber": 2,
+        "IsHidden": false,
+        "Photo": "/ivanov_photo.png",
+        "Name": "Иванов Дмитрий Фёдорович",
+        "Position": "Менеджер по продажам",
+        "PhoneNumber": "+7(777)777-77-77",
+        "Email": "ivanov@company.com"
+      }
+    ],
+    "TeamPhoto": "/team_photo.png"
   }
 }

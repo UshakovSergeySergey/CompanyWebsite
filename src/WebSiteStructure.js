@@ -10,6 +10,7 @@ class WebSiteStructure {
         this.WebSiteSections = [];
         this.LinksToSocialMedia = [];
         this.ClientsPage = {};
+        this.CompanyPage = {};
     }
     getListOfSections = () => {
         let sections = this.WebSiteSections.filter(site => !site.IsHidden);
@@ -43,6 +44,17 @@ class WebSiteStructure {
             return 0;
         });
         return logos;
+    };
+    getListOfKeyEmployees = () => {
+        let employees = this.CompanyPage.KeyEmployees.filter(employee => !employee.IsHidden);
+        employees.sort((a, b) => {
+            if(a.OrdinalNumber < b.OrdinalNumber)
+                return -1;
+            if(b.OrdinalNumber < a.OrdinalNumber)
+                return 1;
+            return 0;
+        });
+        return employees;
     };
     sectionIsVisible = (sectionLink) => {
         let section = this.WebSiteSections.find(section => section.Link === sectionLink);
