@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { WebSiteStructure } from '../WebSiteStructure';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
     getLinksToSections = () => {
