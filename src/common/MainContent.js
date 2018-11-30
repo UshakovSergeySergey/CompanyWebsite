@@ -18,16 +18,16 @@ class MainContent extends React.Component {
         return (
             <div id='main-content'>
                 <Switch>
-                    <Route exact path='/CompanyWebsite/'            render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.Main }      render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.Company }   render={() => ( <CompanyPage    webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.Contacts }  render={() => ( <ContactsPage   webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.Portfolio } render={() => ( <PortfolioPage  webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.Services }  render={() => ( <ServicesPage   webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.Clients }   render={() => ( <ClientsPage    webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.News }      render={() => ( <NewsPage       webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ SectionPathEnum.NotFound }  render={() => ( <NotFoundPage   webSiteStructure={ webSiteStructure } /> )} />
-                    <Route                                          render={() => ( <Redirect       to={ SectionPathEnum.NotFound }       /> )} />
+                    <Route exact path={ process.env.PUBLIC_URL + '/' }                          render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Main }         render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Company }      render={() => ( <CompanyPage    webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Contacts }     render={() => ( <ContactsPage   webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Portfolio }    render={() => ( <PortfolioPage  webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Services }     render={() => ( <ServicesPage   webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Clients }      render={() => ( <ClientsPage    webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.News }         render={() => ( <NewsPage       webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.NotFound }     render={() => ( <NotFoundPage   webSiteStructure={ webSiteStructure } /> )} />
+                    <Route render={() => ( <Redirect to={ process.env.PUBLIC_URL + SectionPathEnum.NotFound } /> )} />
                 </Switch>
             </div>
         );
