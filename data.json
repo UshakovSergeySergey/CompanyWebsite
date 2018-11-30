@@ -53,61 +53,61 @@
   "LinksToSocialMedia": [
     {
       "OrdinalNumber": 0,
-      "Icon": "/CompanyWebsite/facebook_icon.png",
+      "Icon": "/facebook_icon.png",
       "Link": "https://www.facebook.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 1,
-      "Icon": "/CompanyWebsite/vkontakte_icon.png",
+      "Icon": "/vkontakte_icon.png",
       "Link": "https://vk.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 2,
-      "Icon": "/CompanyWebsite/odnoklassniki_icon.png",
+      "Icon": "/odnoklassniki_icon.png",
       "Link": "https://ok.ru/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 3,
-      "Icon": "/CompanyWebsite/twitter_icon.png",
+      "Icon": "/twitter_icon.png",
       "Link": "https://twitter.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 4,
-      "Icon": "/CompanyWebsite/telegram_icon.png",
+      "Icon": "/telegram_icon.png",
       "Link": "https://telegram.org/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 5,
-      "Icon": "/CompanyWebsite/instagram_icon.png",
+      "Icon": "/instagram_icon.png",
       "Link": "https://www.instagram.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 6,
-      "Icon": "/CompanyWebsite/googleplus_icon.png",
+      "Icon": "/googleplus_icon.png",
       "Link": "https://plus.google.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 7,
-      "Icon": "/CompanyWebsite/youtube_icon.png",
+      "Icon": "/youtube_icon.png",
       "Link": "https://www.youtube.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 8,
-      "Icon": "/CompanyWebsite/vimeo_icon.png",
+      "Icon": "/vimeo_icon.png",
       "Link": "https://vimeo.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 9,
-      "Icon": "/CompanyWebsite/sketchfab_icon.png",
+      "Icon": "/sketchfab_icon.png",
       "Link": "https://sketchfab.com/",
       "IsHidden": false
     }
@@ -118,12 +118,12 @@
     "ClientLogos": [
       {
         "OrdinalNumber": 0,
-        "Icon": "/CompanyWebsite/sberbank_logo.png",
+        "Icon": "/sberbank_logo.png",
         "IsHidden": false
       },
       {
         "OrdinalNumber": 1,
-        "Icon": "/CompanyWebsite/ingrad_logo.png",
+        "Icon": "/ingrad_logo.png",
         "IsHidden": false
       }
     ]
