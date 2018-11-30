@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { WebSiteStructure } from './WebSiteStructure';
 import { Header } from './common/Header';
 import { Footer } from './common/Footer';
-import { NavigationBar } from './common/NavigationBar';
+//import { NavigationBar } from './common/NavigationBar';
 import { MainContent } from './common/MainContent';
 import './main.css';
 import { SectionPathEnum } from './SectionPathEnum';
