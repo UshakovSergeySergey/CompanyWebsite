@@ -9,11 +9,21 @@ class WebSiteStructure {
         this.CompanyWorkingHours = '';
         this.WebSiteSections = [];
         this.LinksToSocialMedia = [];
-        this.ClientsPage = {};
+
+        this.MainPage = {};
         this.CompanyPage = {};
+        this.ContactsPage = {};
+        this.PortfolioPage = {};
+        this.ServicesPage = {};
+        this.ClientsPage = {};
+        this.NewsPage = {};
+        this.NotFoundPage = {};
     }
     getCompanyName = () => {
-        return 'WebSiteName';
+        return 'ООО «Наша Компания»';
+    };
+    getCompanyYearsOfExistence = () => {
+        return '2018';
     };
     getListOfSections = () => {
         let sections = this.WebSiteSections.filter(site => !site.IsHidden);

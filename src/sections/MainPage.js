@@ -14,7 +14,7 @@ class MainPage extends React.Component {
 
         return (
             <div>
-                <p><b>ГЛАВНАЯ</b></p>
+                <h1>{ webSiteStructure.MainPage.Caption }</h1>
             </div>
         );
     }

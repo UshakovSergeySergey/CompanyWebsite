@@ -4,9 +4,10 @@ import { WebSiteStructure } from '../WebSiteStructure';
 
 class NotFoundPage extends React.Component {
     render() {
+        const webSiteStructure = this.props.webSiteStructure;
         return (
             <div>
-                <p><b>СТРАНИЦА НЕ НАЙДЕНА</b></p>
+                <h1>{ webSiteStructure.NotFoundPage.Caption }</h1>
             </div>
         );
     }

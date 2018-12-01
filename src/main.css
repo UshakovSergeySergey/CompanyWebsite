@@ -1,5 +1,8 @@
 #footer-block {
-    background-color: aquamarine;
+    background-color: #222222;
+    min-height: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #navigation-bar {
@@ -12,8 +15,8 @@
 }
 
 .social-media-icon {
-    width: 64px;
-    height: 64px;
+    height: 32px;
+    width: 32px;
 }
 
 #map-office-label {
@@ -21,12 +24,21 @@
     color: red;
 }
 
-.active-menu-item {
-    background-color: cadetblue;
-}
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.footer-nav-element {
+    height: 20px !important;
+    min-height: 25px !important;
+    float: none !important;
+}
+
+.footer-nav-element-selected {
+    height: 20px !important;
+    padding-top: 3px !important;
+    min-height: 25px !important;
+    min-width: 100px !important;
 }

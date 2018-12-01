@@ -14,7 +14,7 @@ class NewsPage extends React.Component {
 
         return (
             <div>
-                <p><b>НОВОСТИ</b></p>
+                <h1>{ webSiteStructure.NewsPage.Caption }</h1>
             </div>
         );
     }

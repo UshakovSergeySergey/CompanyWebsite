@@ -53,83 +53,67 @@
   "LinksToSocialMedia": [
     {
       "OrdinalNumber": 0,
-      "Icon": "/facebook_icon.png",
+      "Icon": "/facebook_logo.png",
       "Link": "https://www.facebook.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 1,
-      "Icon": "/vkontakte_icon.png",
+      "Icon": "/vkontakte_logo.png",
       "Link": "https://vk.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 2,
-      "Icon": "/odnoklassniki_icon.png",
+      "Icon": "/odnoklassniki_logo.png",
       "Link": "https://ok.ru/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 3,
-      "Icon": "/twitter_icon.png",
+      "Icon": "/twitter_logo.png",
       "Link": "https://twitter.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 4,
-      "Icon": "/telegram_icon.png",
+      "Icon": "/telegram_logo.png",
       "Link": "https://telegram.org/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 5,
-      "Icon": "/instagram_icon.png",
+      "Icon": "/instagram_logo.png",
       "Link": "https://www.instagram.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 6,
-      "Icon": "/googleplus_icon.png",
+      "Icon": "/googleplus_logo.png",
       "Link": "https://plus.google.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 7,
-      "Icon": "/youtube_icon.png",
+      "Icon": "/youtube_logo.png",
       "Link": "https://www.youtube.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 8,
-      "Icon": "/vimeo_icon.png",
+      "Icon": "/vimeo_logo.png",
       "Link": "https://vimeo.com/",
       "IsHidden": false
     },
     {
       "OrdinalNumber": 9,
-      "Icon": "/sketchfab_icon.png",
+      "Icon": "/sketchfab_logo.png",
       "Link": "https://sketchfab.com/",
       "IsHidden": false
     }
   ],
-  "ClientsPage": {
-    "Caption": "Наши клиенты",
-    "Text": "можно пару слов о том какие у нас крутые клиенты, какие они респектабельные, какие мы респектабельные и надёжные, мол нам доверяют",
-    "ClientLogos": [
-      {
-        "OrdinalNumber": 0,
-        "Icon": "/sberbank_logo.png",
-        "IsHidden": false
-      },
-      {
-        "OrdinalNumber": 1,
-        "Icon": "/ingrad_logo.png",
-        "IsHidden": false
-      }
-    ]
-  },
-  "ContactsPage": {
-    "Caption": "Контакты"
+  "MainPage": {
+    "Caption": "Главная"
   },
   "CompanyPage": {
     "Caption": "О компании",
@@ -164,5 +148,36 @@
       }
     ],
     "TeamPhoto": "/team_photo.png"
+  },
+  "ContactsPage": {
+    "Caption": "Контакты"
+  },
+  "PortfolioPage": {
+    "Caption": "Портфолио"
+  },
+  "ServicesPage": {
+    "Caption": "Услуги"
+  },
+  "ClientsPage": {
+    "Caption": "Наши клиенты",
+    "Text": "можно пару слов о том какие у нас крутые клиенты, какие они респектабельные, какие мы респектабельные и надёжные, мол нам доверяют",
+    "ClientLogos": [
+      {
+        "OrdinalNumber": 0,
+        "Icon": "/sberbank_logo.png",
+        "IsHidden": false
+      },
+      {
+        "OrdinalNumber": 1,
+        "Icon": "/ingrad_logo.png",
+        "IsHidden": false
+      }
+    ]
+  },
+  "NewsPage": {
+    "Caption": "Новости"
+  },
+  "NotFoundPage": {
+    "Caption": "Страница не найдена"
   }
 }

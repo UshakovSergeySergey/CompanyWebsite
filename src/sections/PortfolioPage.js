@@ -14,7 +14,7 @@ class PortfolioPage extends React.Component {
 
         return (
             <div>
-                <p><b>ПОРТФОЛИО</b></p>
+                <h1>{ webSiteStructure.PortfolioPage.Caption }</h1>
             </div>
         );
     }

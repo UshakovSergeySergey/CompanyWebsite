@@ -25,7 +25,7 @@ class App extends Component {
     render() {
         const { webSiteStructure, currentSection } = this.state;
         return (
-            <div className='container-fluid' style={ { padding: '0px'} }>
+            <div className='container-fluid' style={ { padding: '0px' } }>
                 <div className='App'>
                     { webSiteStructure && (<Header webSiteStructure={ webSiteStructure } currentSection={ currentSection } sectionChanged={ this.sectionChanged } />) }
                     { /* webSiteStructure && (<NavigationBar webSiteStructure={ webSiteStructure } />) */ }

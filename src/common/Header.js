@@ -11,16 +11,16 @@ class Header extends React.Component {
     };
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
-        let bar = document.getElementById("header-navigation-bar");
+        let bar = document.getElementById('header-navigation-bar');
         let stickyValue = bar.offsetTop;
         this.setState({ navigationBar: bar, sticky: stickyValue});
     }
     handleScroll = () => {
         const { navigationBar, sticky } = this.state;
         if(window.pageYOffset >= sticky)
-            navigationBar.classList.add("sticky");
+            navigationBar.classList.add('sticky');
         else
-            navigationBar.classList.remove("sticky");
+            navigationBar.classList.remove('sticky');
     };
     getLinksToSections = () => {
         const webSiteStructure = this.props.webSiteStructure;

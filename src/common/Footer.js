@@ -11,16 +11,16 @@ class Footer extends React.Component {
         const sectionList = sections.map(section => {
             let isActive = '';
             if(currentSection === section.Link)
-                isActive = ' active active-menu-item';
+                isActive = ' active';
             let sectionChanged = (e) => {
                 this.props.sectionChanged(section.Link);
             };
             return (
-                <li className={ isActive } key={ section.OrdinalNumber }>
-                    <Link to={ process.env.PUBLIC_URL + section.Link } onClick={ sectionChanged }>{ section.Name }</Link>
+                <li className={ 'footer-nav-element' + isActive } key={ section.OrdinalNumber }>
+                    <Link className='footer-nav-element-selected' to={ process.env.PUBLIC_URL + section.Link } onClick={ sectionChanged }>{ section.Name }</Link>
                 </li>);
         });
-        return (<ul>{ sectionList }</ul>);
+        return (<ul className='nav navbar-nav'>{ sectionList }</ul>);
     };
     getLinksToSocialMedia = () => {
         const webSiteStructure = this.props.webSiteStructure;
@@ -32,18 +32,43 @@ class Footer extends React.Component {
                 </a>
             );
         });
-        return (<React.Fragment>{ linkList }</React.Fragment>);
+
+        const chunkSize = 5;
+        let linkRows = [];
+        for(let start = 0, end = linkList.length; start < end; start += chunkSize)
+            linkRows.push(linkList.slice(start, start + chunkSize));
+
+        const rowList = linkRows.map((row, index) => {
+            return (<div className='row' key={ index }>{ row }</div>);
+        });
+
+        return (<React.Fragment>{ rowList }</React.Fragment>);
     };
     render() {
         const webSiteStructure = this.props.webSiteStructure;
         return (
             <div id='footer-block'>
-                <p>copyright</p>
-                <p>{ webSiteStructure.getCompanyLegalAddress() }</p>
-                <p>{ webSiteStructure.getCompanyEmail() }</p>
-                <p>{ webSiteStructure.getCompanyPhoneNumber() }</p>
-                { this.getLinksToSections() }
-                { this.getLinksToSocialMedia() }
+                <div style={ { color: '#9d9d9d' } }>
+                    <div className='row' style={ { paddingTop: '30px' } }>
+                        <div className='col-xs-6' style={ { lineHeight: 1.8 } }>
+                            <div className='row'>{ webSiteStructure.getCompanyName() }</div>
+                            <div className='row'>{ webSiteStructure.getCompanyLegalAddress() }</div>
+                            <div className='row'><a href={ 'mailto:' + webSiteStructure.getCompanyEmail() }>{ webSiteStructure.getCompanyEmail() }</a></div>
+                            <div className='row'><a href={ 'tel:' + webSiteStructure.getCompanyPhoneNumber() }>{ webSiteStructure.getCompanyPhoneNumber() }</a></div>
+                            <div className='row'>
+                                { this.getLinksToSocialMedia() }
+                            </div>
+                        </div>
+                        <div className='col-xs-3'>
+                        </div>
+                        <div className='col-xs-3'>
+                            <div className='navbar navbar-inverse navbar-stacked' style={ { borderColor: 'transparent' } }>
+                                { this.getLinksToSections() }
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row' style={ { lineHeight: 3.8, textAlign: 'center' } }>© { webSiteStructure.getCompanyYearsOfExistence() } { webSiteStructure.getCompanyName() }</div>
+                </div>
             </div>
         );
     }
