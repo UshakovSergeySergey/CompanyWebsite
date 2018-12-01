@@ -53,8 +53,8 @@ class Footer extends React.Component {
                         <div className='col-xs-6' style={ { lineHeight: 1.8 } }>
                             <div className='row'>{ webSiteStructure.getCompanyName() }</div>
                             <div className='row'>{ webSiteStructure.getCompanyLegalAddress() }</div>
-                            <div className='row'><a href={ 'mailto:' + webSiteStructure.getCompanyEmail() }>{ webSiteStructure.getCompanyEmail() }</a></div>
-                            <div className='row'><a href={ 'tel:' + webSiteStructure.getCompanyPhoneNumber() }>{ webSiteStructure.getCompanyPhoneNumber() }</a></div>
+                            <div className='row footer-contacts'><a href={ 'mailto:' + webSiteStructure.getCompanyEmail() }>{ webSiteStructure.getCompanyEmail() }</a></div>
+                            <div className='row footer-contacts'><a href={ 'tel:' + webSiteStructure.getCompanyPhoneNumber() }>{ webSiteStructure.getCompanyPhoneNumber() }</a></div>
                             <div className='row'>
                                 { this.getLinksToSocialMedia() }
                             </div>

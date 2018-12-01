@@ -54,7 +54,7 @@ class Header extends React.Component {
                                 <img className='navbar-brand' style={ { height: '128px', width: '128px' } } src='logo.svg' alt={ webSiteStructure.getCompanyName() } />
                             </Link>
                         </div>
-                        <div className='col-xs-4'>
+                        <div className='col-xs-4 header-contacts'>
                             <div className='row'>
                                 <a href={ 'tel:' + webSiteStructure.getCompanyPhoneNumber() }>{ webSiteStructure.getCompanyPhoneNumber() }</a>
                             </div>

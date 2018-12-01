@@ -19,6 +19,10 @@
     width: 32px;
 }
 
+.social-media-icon:hover {
+    filter: brightness(2);
+}
+
 #map-office-label {
     font-size: 20px;
     color: red;
@@ -41,4 +45,48 @@
     padding-top: 3px !important;
     min-height: 25px !important;
     min-width: 100px !important;
+}
+
+.header-contacts a {
+    text-align: center;
+    color: #222222;
+}
+.header-contacts a:link {
+    text-align: center;
+    color: #222222;
+}
+.header-contacts a:visited {
+    text-align: center;
+    color: #222222;
+}
+.header-contacts a:active {
+    text-align: center;
+    color: #222222;
+}
+.header-contacts a:hover {
+    text-align: center;
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+.footer-contacts a {
+    text-align: center;
+    color: #9d9d9d;
+}
+.footer-contacts a:link {
+    text-align: center;
+    color: #9d9d9d;
+}
+.footer-contacts a:visited {
+    text-align: center;
+    color: #9d9d9d;
+}
+.footer-contacts a:active {
+    text-align: center;
+    color: #9d9d9d;
+}
+.footer-contacts a:hover {
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
