@@ -16,7 +16,7 @@ class MainContent extends React.Component {
     render() {
         const webSiteStructure = this.props.webSiteStructure;
         return (
-            <div id='main-content'>
+            <div className='container-fluid main-content'>
                 <Switch>
                     <Route exact path={ process.env.PUBLIC_URL + '/' }                          render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Main }         render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />

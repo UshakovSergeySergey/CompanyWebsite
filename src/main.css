@@ -1,7 +1,3 @@
-#header-block {
-    background-color: antiquewhite;
-}
-
 #footer-block {
     background-color: aquamarine;
 }
@@ -10,7 +6,7 @@
     background-color: aqua;
 }
 
-#main-content {
+.main-content {
     background-color: coral;
     min-height: 1700px;
 }
@@ -27,4 +23,10 @@
 
 .active-menu-item {
     background-color: cadetblue;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }

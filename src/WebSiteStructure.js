@@ -12,6 +12,9 @@ class WebSiteStructure {
         this.ClientsPage = {};
         this.CompanyPage = {};
     }
+    getCompanyName = () => {
+        return 'WebSiteName';
+    };
     getListOfSections = () => {
         let sections = this.WebSiteSections.filter(site => !site.IsHidden);
         sections.sort((a, b) => {
