@@ -29,7 +29,7 @@ class Header extends React.Component {
         const sections = webSiteStructure.getListOfSections();
         const sectionList = sections.map(section => {
             const isActive = currentSection === section.Path ? 'active' : '';
-            let sectionChanged = (e) => {
+            let sectionChanged = () => {
                 this.props.sectionChanged(section.Path);
             };
             return (
@@ -50,12 +50,17 @@ class Header extends React.Component {
         const phoneNumberPretty = Prettifier.prettifyPhoneNumber(phoneNumberRaw);
         const companyName = companyInfo.getName();
         const email = companyInfo.getEmail();
+
+        let goToMainSection = () => {
+            this.props.sectionChanged(SectionPathEnum.Main);
+        };
+
         return (
             <React.Fragment>
                 <div className='navbar-default'>
                     <div className='row'>
                         <div className='col-xs-8'>
-                            <Link to={ process.env.PUBLIC_URL + SectionPathEnum.Main }>
+                            <Link to={ process.env.PUBLIC_URL + SectionPathEnum.Main } onClick={ goToMainSection }>
                                 <img className='navbar-brand' style={ { height: '128px', width: '128px' } } src='logo.svg' alt={ companyName } />
                             </Link>
                         </div>
@@ -77,7 +82,7 @@ class Header extends React.Component {
                                 <span className='icon-bar'></span>
                                 <span className='icon-bar'></span>
                             </button>
-                            <Link className='navbar-brand' to={ process.env.PUBLIC_URL + SectionPathEnum.Main }>{ companyName }</Link>
+                            <Link className='navbar-brand' to={ process.env.PUBLIC_URL + SectionPathEnum.Main } onClick={ goToMainSection }>{ companyName }</Link>
                         </div>
 
                         <div className='collapse navbar-collapse' id='header-navbar'>
