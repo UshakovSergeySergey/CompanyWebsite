@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { WebSiteStructure } from '../WebSiteStructure';
 import { Link } from 'react-router-dom';
 import { SectionPathEnum } from '../SectionPathEnum';
+import { Prettifier } from '../InternalDataTypes/Prettifier';
 
 class Header extends React.Component {
     state = {
@@ -27,13 +28,13 @@ class Header extends React.Component {
         const currentSection = this.props.currentSection;
         const sections = webSiteStructure.getListOfSections();
         const sectionList = sections.map(section => {
-            const isActive = currentSection === section.Link ? 'active' : '';
+            const isActive = currentSection === section.Path ? 'active' : '';
             let sectionChanged = (e) => {
-                this.props.sectionChanged(section.Link);
+                this.props.sectionChanged(section.Path);
             };
             return (
                 <li className={ isActive } key={ section.OrdinalNumber }>
-                    <Link to={ process.env.PUBLIC_URL + section.Link } onClick={ sectionChanged }>{ section.Name }</Link>
+                    <Link to={ process.env.PUBLIC_URL + section.Path } onClick={ sectionChanged }>{ section.Name }</Link>
                 </li>
             );
         });
@@ -44,22 +45,26 @@ class Header extends React.Component {
         );
     };
     render() {
-        const webSiteStructure = this.props.webSiteStructure;
+        const companyInfo = this.props.webSiteStructure.getCompanyInfo();
+        const phoneNumberRaw = companyInfo.getPhoneNumber();
+        const phoneNumberPretty = Prettifier.prettifyPhoneNumber(phoneNumberRaw);
+        const companyName = companyInfo.getName();
+        const email = companyInfo.getEmail();
         return (
             <React.Fragment>
                 <div className='navbar-default'>
                     <div className='row'>
                         <div className='col-xs-8'>
                             <Link to={ process.env.PUBLIC_URL + SectionPathEnum.Main }>
-                                <img className='navbar-brand' style={ { height: '128px', width: '128px' } } src='logo.svg' alt={ webSiteStructure.getCompanyName() } />
+                                <img className='navbar-brand' style={ { height: '128px', width: '128px' } } src='logo.svg' alt={ companyName } />
                             </Link>
                         </div>
                         <div className='col-xs-4 header-contacts'>
                             <div className='row'>
-                                <a href={ 'tel:' + webSiteStructure.getCompanyPhoneNumber() }>{ webSiteStructure.getCompanyPhoneNumber() }</a>
+                                <a href={ 'tel:' + phoneNumberRaw }>{ phoneNumberPretty }</a>
                             </div>
                             <div className='row'>
-                                <a href={ 'mailto:' + webSiteStructure.getCompanyEmail() }>{ webSiteStructure.getCompanyEmail() }</a>
+                                <a href={ 'mailto:' + email }>{ email }</a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +77,7 @@ class Header extends React.Component {
                                 <span className='icon-bar'></span>
                                 <span className='icon-bar'></span>
                             </button>
-                            <Link className='navbar-brand' to={ process.env.PUBLIC_URL + SectionPathEnum.Main }>{ webSiteStructure.getCompanyName() }</Link>
+                            <Link className='navbar-brand' to={ process.env.PUBLIC_URL + SectionPathEnum.Main }>{ companyName }</Link>
                         </div>
 
                         <div className='collapse navbar-collapse' id='header-navbar'>

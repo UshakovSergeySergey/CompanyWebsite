@@ -14,7 +14,7 @@ class ServicesPage extends React.Component {
 
         return (
             <div>
-                <h1>{ webSiteStructure.ServicesPage.Caption }</h1>
+                <h1>Услуги</h1>
             </div>
         );
     }

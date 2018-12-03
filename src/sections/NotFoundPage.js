@@ -7,7 +7,7 @@ class NotFoundPage extends React.Component {
         const webSiteStructure = this.props.webSiteStructure;
         return (
             <div>
-                <h1>{ webSiteStructure.NotFoundPage.Caption }</h1>
+                <h1>Страница не найдена</h1>
             </div>
         );
     }

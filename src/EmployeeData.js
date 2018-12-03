@@ -6,7 +6,7 @@ class EmployeeData {
         this.Name = '';
         this.Position = '';
         this.PhoneNumber = '';
-        this.Email = '';
+        this.EMail = '';
     }
 }
 

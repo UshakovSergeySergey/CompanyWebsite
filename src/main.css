@@ -90,3 +90,25 @@
     color: white;
     text-decoration: none;
 }
+
+.employee-contacts a {
+    text-align: center;
+    color: #333333;
+}
+.employee-contacts a:link {
+    text-align: center;
+    color: #333333;
+}
+.employee-contacts a:visited {
+    text-align: center;
+    color: #333333;
+}
+.employee-contacts a:active {
+    text-align: center;
+    color: #333333;
+}
+.employee-contacts a:hover {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

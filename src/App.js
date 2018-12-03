@@ -6,6 +6,8 @@ import { Footer } from './common/Footer';
 import { MainContent } from './common/MainContent';
 import './main.css';
 import { SectionPathEnum } from './SectionPathEnum';
+import {CompanyInfo} from "./InternalDataTypes/CompanyInfo";
+import {CompanyRequisites} from "./InternalDataTypes/CompanyRequisites";
 
 class App extends Component {
     state = {
@@ -18,9 +20,12 @@ class App extends Component {
     componentDidMount() {
         fetch('data.json')
             .then(response => response.json())
-            .then(data => this.setState(
-                { webSiteStructure: Object.assign(new WebSiteStructure(), data) })
-            );
+            .then(data => {
+                let parsedData = Object.assign(new WebSiteStructure(), data);
+                parsedData.CompanyInfo = Object.assign(new CompanyInfo(), parsedData.CompanyInfo);
+                parsedData.CompanyRequisites = Object.assign(new CompanyRequisites(), parsedData.CompanyRequisites);
+                this.setState({ webSiteStructure: parsedData });
+            });
     }
     render() {
         const { webSiteStructure, currentSection } = this.state;

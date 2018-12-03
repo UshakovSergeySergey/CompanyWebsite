@@ -1,32 +1,23 @@
+import { CompanyInfo } from './InternalDataTypes/CompanyInfo';
+import { CompanyRequisites } from './InternalDataTypes/CompanyRequisites';
+
 class WebSiteStructure {
     constructor() {
-        this.CompanyPhoneNumber = '';
-        this.CompanyEmail = '';
-        this.CompanyLegalAddress = '';
-        this.CompanyOfficeAddress = '';
-        this.CompanyMailCorrespondenceAddress = '';
-        this.CompanyFaxNumber = '';
-        this.CompanyWorkingHours = '';
-        this.WebSiteSections = [];
-        this.LinksToSocialMedia = [];
-
-        this.MainPage = {};
-        this.CompanyPage = {};
-        this.ContactsPage = {};
-        this.PortfolioPage = {};
-        this.ServicesPage = {};
-        this.ClientsPage = {};
-        this.NewsPage = {};
-        this.NotFoundPage = {};
+        this.CompanyInfo = new CompanyInfo();
+        this.CompanyRequisites = new CompanyRequisites();
+        this.Sections = [];
+        this.SocialMedias = [];
+        this.Clients = [];
+        this.Employees = [];
     }
-    getCompanyName = () => {
-        return 'ООО «Наша Компания»';
+    getCompanyInfo = () => {
+        return this.CompanyInfo;
     };
-    getCompanyYearsOfExistence = () => {
-        return '2018';
+    getCompanyRequisites = () => {
+        return this.CompanyRequisites;
     };
     getListOfSections = () => {
-        let sections = this.WebSiteSections.filter(site => !site.IsHidden);
+        let sections = this.Sections.filter(site => !site.IsHidden);
         sections.sort((a, b) => {
             if(a.OrdinalNumber < b.OrdinalNumber)
                 return -1;
@@ -37,7 +28,7 @@ class WebSiteStructure {
         return sections;
     };
     getListOfSocialMedia = () => {
-        let links = this.LinksToSocialMedia.filter(link => !link.IsHidden);
+        let links = this.SocialMedias.filter(link => !link.IsHidden);
         links.sort((a, b) => {
             if(a.OrdinalNumber < b.OrdinalNumber)
                 return -1;
@@ -48,7 +39,7 @@ class WebSiteStructure {
         return links;
     };
     getListOfClientLogos = () => {
-        let logos = this.ClientsPage.ClientLogos.filter(client => !client.IsHidden);
+        let logos = this.Clients.filter(client => !client.IsHidden);
         logos.sort((a, b) => {
             if(a.OrdinalNumber < b.OrdinalNumber)
                 return -1;
@@ -59,7 +50,7 @@ class WebSiteStructure {
         return logos;
     };
     getListOfKeyEmployees = () => {
-        let employees = this.CompanyPage.KeyEmployees.filter(employee => !employee.IsHidden);
+        let employees = this.Employees.filter(employee => !employee.IsHidden);
         employees.sort((a, b) => {
             if(a.OrdinalNumber < b.OrdinalNumber)
                 return -1;
@@ -69,32 +60,12 @@ class WebSiteStructure {
         });
         return employees;
     };
-    sectionIsVisible = (sectionLink) => {
-        let section = this.WebSiteSections.find(section => section.Link === sectionLink);
+
+    sectionIsVisible = (sectionPath) => {
+        let section = this.Sections.find(section => section.Path === sectionPath);
         if(section)
             return !section.IsHidden;
         return false;
-    };
-    getCompanyPhoneNumber = () => {
-        return this.CompanyPhoneNumber;
-    };
-    getCompanyEmail = () => {
-        return this.CompanyEmail;
-    };
-    getCompanyLegalAddress = () => {
-        return this.CompanyLegalAddress;
-    };
-    getCompanyOfficeAddress = () => {
-        return this.CompanyOfficeAddress;
-    };
-    getCompanyMailCorrespondenceAddress = () => {
-        return this.CompanyMailCorrespondenceAddress;
-    };
-    getCompanyFaxNumber = () => {
-        return this.CompanyFaxNumber;
-    };
-    getCompanyWorkingHours = () => {
-        return this.CompanyWorkingHours;
     };
 }
 

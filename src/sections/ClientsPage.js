@@ -11,7 +11,7 @@ class ClientsPage extends React.Component {
 
         const logoList = logos.map(logo => {
             return (
-                <img key={ logo.OrdinalNumber } className='client-logo' src={ process.env.PUBLIC_URL + logo.Icon } alt='missing text' />
+                <img key={ logo.OrdinalNumber } className='client-logo' src={ process.env.PUBLIC_URL + logo.PathToImage } alt={ logo.Name } />
             );
         });
         return (<div>{ logoList }</div>);
@@ -25,8 +25,8 @@ class ClientsPage extends React.Component {
 
         return (
             <div>
-                <h1>{ webSiteStructure.ClientsPage.Caption }</h1>
-                <p>{ webSiteStructure.ClientsPage.Text }</p>
+                <h1>Наши клиенты</h1>
+                <p>можно пару слов о том какие у нас крутые клиенты, какие они респектабельные, какие мы респектабельные и надёжные, мол нам доверяют</p>
                 <h2>Нам доверяют:</h2>
                 { this.getClientLogos() }
             </div>

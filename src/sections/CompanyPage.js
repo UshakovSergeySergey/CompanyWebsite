@@ -27,8 +27,8 @@ class CompanyPage extends React.Component {
 
         return (
             <div>
-                <h1>{ webSiteStructure.CompanyPage.Caption }</h1>
-                <p>{ webSiteStructure.CompanyPage.Text }</p>
+                <h1>О компании</h1>
+                <p>текст с описанием того, какие мы успешные и прочий маркетинговый текст, когда основана, статистика по проектам, может инфа по количеству сотрудников</p>
                 { this.getKeyEmployees() }
             </div>
         );
