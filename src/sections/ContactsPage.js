@@ -6,7 +6,7 @@ import { WebSiteStructure } from '../WebSiteStructure';
 import { Map } from '../Map';
 import { Prettifier } from '../InternalDataTypes/Prettifier';
 import { Address } from '../InternalDataTypes/Address';
-import { CompanyRequisites, RequisiteName } from '../InternalDataTypes/CompanyRequisites';
+import { RequisiteName } from '../InternalDataTypes/CompanyRequisites';
 
 class ContactsPage extends React.Component {
     render() {
