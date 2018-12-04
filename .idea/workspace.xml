@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f707c801-6637-4744-b182-45ef9be01796" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebSiteStructure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebSiteStructure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/MainContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/NavigationBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/ClientsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ClientsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/CompanyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/CompanyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/ContactsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ContactsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/NewsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/NotFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/NotFoundPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/PortfolioPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/PortfolioPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/ServicesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ServicesPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,21 +21,21 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="25" />
+          <entry key="project.open.time.3" value="26" />
           <entry key="project.open.time.4" value="15" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="39" />
+          <entry key="ESLintLanguageService" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="14" />
           <entry key="html" value="9" />
-          <entry key="js" value="151" />
+          <entry key="js" value="153" />
           <entry key="json" value="45" />
           <entry key="map" value="3" />
         </counts>
@@ -63,7 +45,7 @@
           <entry key="CSS" value="14" />
           <entry key="HTML" value="9" />
           <entry key="JSON" value="45" />
-          <entry key="JavaScript" value="151" />
+          <entry key="JavaScript" value="153" />
           <entry key="SourceMap" value="3" />
         </counts>
       </usages-collector>
@@ -71,7 +53,7 @@
         <counts>
           <entry key="css" value="416" />
           <entry key="html" value="101" />
-          <entry key="js" value="17840" />
+          <entry key="js" value="17845" />
           <entry key="json" value="6459" />
         </counts>
       </usages-collector>
@@ -80,19 +62,37 @@
           <entry key="CSS" value="416" />
           <entry key="HTML" value="101" />
           <entry key="JSON" value="6459" />
-          <entry key="JavaScript" value="17839" />
+          <entry key="JavaScript" value="17844" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
-              <caret line="611" column="37" lean-forward="true" selection-start-line="611" selection-start-column="37" selection-end-line="611" selection-end-column="37" />
+              <caret line="611" column="37" selection-start-line="611" selection-start-column="37" selection-end-line="611" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -187,13 +187,13 @@
         <option value="$PROJECT_DIR$/src/common/Carousel.js" />
         <option value="$PROJECT_DIR$/src/main.css" />
         <option value="$PROJECT_DIR$/src/common/MainContent.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/common/Header.js" />
         <option value="$PROJECT_DIR$/src/WebSiteStructure.js" />
         <option value="$PROJECT_DIR$/src/common/ProjectThumbnail.js" />
         <option value="$PROJECT_DIR$/src/InternalDataTypes/Project.js" />
         <option value="$PROJECT_DIR$/src/sections/ProjectPage.js" />
         <option value="$PROJECT_DIR$/public/data.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -224,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,13 +246,12 @@
               <item name="CompanyWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanyWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sections" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,14 +397,16 @@
       <workItem from="1543928640155" duration="552000" />
       <workItem from="1543929226019" duration="108000" />
       <workItem from="1543929486595" duration="33000" />
+      <workItem from="1543929769798" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116769000" />
+    <option name="totallyTimeSpent" value="116815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3568376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -652,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/MainContent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -687,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="148" lean-forward="true" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/PortfolioPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -718,7 +706,21 @@
     <entry file="file://$PROJECT_DIR$/public/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
-          <caret line="611" column="37" lean-forward="true" selection-start-line="611" selection-start-column="37" selection-end-line="611" selection-end-column="37" />
+          <caret line="611" column="37" selection-start-line="611" selection-start-column="37" selection-end-line="611" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
         </state>
       </provider>
     </entry>
