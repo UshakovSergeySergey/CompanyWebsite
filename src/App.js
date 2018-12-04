@@ -18,7 +18,7 @@ class App extends Component {
         this.setState({ currentSection: section });
     };
     componentDidMount() {
-        fetch('data.json')
+        fetch('/data.json')
             .then(response => response.json())
             .then(data => {
                 let parsedData = Object.assign(new WebSiteStructure(), data);
@@ -33,7 +33,6 @@ class App extends Component {
             <div className='container-fluid' style={ { padding: '0px' } }>
                 <div className='App'>
                     { webSiteStructure && (<Header webSiteStructure={ webSiteStructure } currentSection={ currentSection } sectionChanged={ this.sectionChanged } />) }
-                    { /* webSiteStructure && (<NavigationBar webSiteStructure={ webSiteStructure } />) */ }
                     { webSiteStructure && (<MainContent webSiteStructure={ webSiteStructure }/>) }
                     { webSiteStructure && (<Footer webSiteStructure={ webSiteStructure } currentSection={ currentSection } sectionChanged={ this.sectionChanged } />) }
                 </div>

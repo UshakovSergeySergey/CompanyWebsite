@@ -9,6 +9,7 @@ class WebSiteStructure {
         this.SocialMedias = [];
         this.Clients = [];
         this.Employees = [];
+        this.Projects = [];
     }
     getCompanyInfo = () => {
         return this.CompanyInfo;
@@ -17,48 +18,42 @@ class WebSiteStructure {
         return this.CompanyRequisites;
     };
     getListOfSections = () => {
-        let sections = this.Sections.filter(site => !site.IsHidden);
-        sections.sort((a, b) => {
-            if(a.OrdinalNumber < b.OrdinalNumber)
-                return -1;
-            if(b.OrdinalNumber < a.OrdinalNumber)
-                return 1;
-            return 0;
-        });
-        return sections;
+        return this.filterVisibleAndSort(this.Sections);
     };
     getListOfSocialMedia = () => {
-        let links = this.SocialMedias.filter(link => !link.IsHidden);
-        links.sort((a, b) => {
-            if(a.OrdinalNumber < b.OrdinalNumber)
-                return -1;
-            if(b.OrdinalNumber < a.OrdinalNumber)
-                return 1;
-            return 0;
-        });
-        return links;
+        return this.filterVisibleAndSort(this.SocialMedias);
     };
     getListOfClientLogos = () => {
-        let logos = this.Clients.filter(client => !client.IsHidden);
-        logos.sort((a, b) => {
-            if(a.OrdinalNumber < b.OrdinalNumber)
-                return -1;
-            if(b.OrdinalNumber < a.OrdinalNumber)
-                return 1;
-            return 0;
-        });
-        return logos;
+        return this.filterVisibleAndSort(this.Clients);
     };
     getListOfKeyEmployees = () => {
-        let employees = this.Employees.filter(employee => !employee.IsHidden);
-        employees.sort((a, b) => {
+        return this.filterVisibleAndSort(this.Employees);
+    };
+    getListOfProjects = () => {
+        let projects = this.Projects.filter(project => !project.IsHidden);
+        projects.sort((a, b) => {
+            let firstDate = new Date(a.Date);
+            firstDate.setHours(0, 0, 0, 0);
+
+            let secondDate = new Date(b.Date);
+            secondDate.setHours(0, 0, 0, 0);
+
+            if(firstDate < secondDate)
+                return -1;
+            if(secondDate < firstDate)
+                return 1;
+
             if(a.OrdinalNumber < b.OrdinalNumber)
                 return -1;
             if(b.OrdinalNumber < a.OrdinalNumber)
                 return 1;
+
             return 0;
         });
-        return employees;
+    };
+    getProjectByPath = (path) => {
+        const project = this.Projects.find(project => project.Path === path);
+        return project;
     };
 
     sectionIsVisible = (sectionPath) => {
@@ -67,6 +62,17 @@ class WebSiteStructure {
             return !section.IsHidden;
         return false;
     };
+    filterVisibleAndSort = (items) => {
+        let filteredItems = items.filter(item => !item.IsHidden);
+        filteredItems.sort((a, b) => {
+            if(a.OrdinalNumber < b.OrdinalNumber)
+                return -1;
+            if(b.OrdinalNumber < a.OrdinalNumber)
+                return 1;
+            return 0;
+        });
+        return filteredItems;
+    }
 }
 
 export { WebSiteStructure };

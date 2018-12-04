@@ -106,7 +106,7 @@ class Footer extends React.Component {
 }
 
 Footer.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure),
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired,
     currentSection: PropTypes.string.isRequired,
     sectionChanged: PropTypes.func.isRequired
 };

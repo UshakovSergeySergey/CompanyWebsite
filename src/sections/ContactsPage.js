@@ -132,7 +132,7 @@ class ContactsPage extends React.Component {
 }
 
 ContactsPage.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { ContactsPage };

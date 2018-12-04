@@ -21,7 +21,7 @@ class ServicesPage extends React.Component {
 }
 
 ServicesPage.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { ServicesPage };

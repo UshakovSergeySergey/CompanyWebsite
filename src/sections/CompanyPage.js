@@ -36,7 +36,7 @@ class CompanyPage extends React.Component {
 }
 
 CompanyPage.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { CompanyPage };

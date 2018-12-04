@@ -11,6 +11,7 @@ import PropTypes from 'prop-types';
 import { WebSiteStructure } from '../WebSiteStructure';
 import { SectionPathEnum } from '../SectionPathEnum';
 import { NotFoundPage } from '../sections/NotFoundPage';
+import { ProjectPage } from '../sections/ProjectPage';
 
 class MainContent extends React.Component {
     render() {
@@ -22,7 +23,8 @@ class MainContent extends React.Component {
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Main }         render={() => ( <MainPage       webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Company }      render={() => ( <CompanyPage    webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Contacts }     render={() => ( <ContactsPage   webSiteStructure={ webSiteStructure } /> )} />
-                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Portfolio }    render={() => ( <PortfolioPage  webSiteStructure={ webSiteStructure } /> )} />
+                    <Route exact path={ process.env.PUBLIC_URL + SectionPathEnum.Portfolio }    render={() => ( <PortfolioPage  webSiteStructure={ webSiteStructure } /> )} />
+                    <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Portfolio }    render={() => ( <ProjectPage    webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Services }     render={() => ( <ServicesPage   webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.Clients }      render={() => ( <ClientsPage    webSiteStructure={ webSiteStructure } /> )} />
                     <Route       path={ process.env.PUBLIC_URL + SectionPathEnum.News }         render={() => ( <NewsPage       webSiteStructure={ webSiteStructure } /> )} />
@@ -35,7 +37,7 @@ class MainContent extends React.Component {
 }
 
 MainContent.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { MainContent };

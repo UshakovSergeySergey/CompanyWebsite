@@ -35,7 +35,7 @@ class ClientsPage extends React.Component {
 }
 
 ClientsPage.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { ClientsPage };

@@ -28,7 +28,7 @@ class Map extends Component {
 }
 
 Map.propTypes = {
-    address: PropTypes.instanceOf(Address)
+    address: PropTypes.instanceOf(Address).isRequired
 };
 
 export { Map };

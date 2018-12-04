@@ -161,426 +161,489 @@
     {
       "IsHidden": false,
       "OrdinalNumber": 0,
+      "Path": "/chameleon",
+      "ThumbnailImage": "/projects/1_chameleon/1.jpg",
       "Name": "Интерактивная инсталляция «Хамелеон» для Дарвиновского музея",
       "Description": "«Хамелеон» это центральная инсталляция нового интерактивного образовательного центра «Познай себя - познай мир» открывшегося в Государственном Дарвиновском музее в Москве 1 сентября 2014 года. Инсталляция отслеживает людей поблизости и управляется жестами от ведущего игрока. В основе работы приложения стоит сенсор Kinect, который позволяет распознавать до 6 человеческих поз, в том числе и жесты. Пользователи так же могут сделать фотографию с хамелеоном, что переводит инсталляцию в разряд приложений дополненной реальности. Хамелеон выбирает свою позиция рядом с пользователем на основе трэкинга скелета таким образом, чтобы создавалось ощущение его присутствия в сцене на фотографии. Полученные снимки отправляются на интерактивный киоск, на котором пользователь имеет возможность посмотреть сделанные фотографии, переслать их по почте или разместить в социальных сетях. Интерактивный киоск в свою очередь представляет собой самый обычный планшет под управлением iOS или Android, на котором запущено небольшое web приложение.",
       "Tags": ["C#", "Unity3D", "Kinect", "Interactive Kiosk", "Gesture Recognition", "Skeleton Tracking", "Augmented Reality"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
+          "ContentType": "Video",
           "Name": "Видео с хамелеоном",
-          "Link": "/projects/1_chameleon/Chameleon Interactive Installation for the State Darwin Museum.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Интерактивная инсталляция «Хамелеон» для Дарвиновского музея",
-          "PathToPhoto": "/projects/1_chameleon/1.jpg"
+          "Link": "https://www.youtube.com/embed/0LHijXElL0w"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Дополненная реальность",
-          "PathToPhoto": "/projects/1_chameleon/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Интерактивная инсталляция «Хамелеон» для Дарвиновского музея",
+          "Link": "/projects/1_chameleon/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "Хамелеон только что съел божью коровку",
-          "PathToPhoto": "/projects/1_chameleon/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Дополненная реальность",
+          "Link": "/projects/1_chameleon/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
-          "Name": "Интерактивный киоск, с помощью которого можно отправить фотографии с хамелеоном",
-          "PathToPhoto": "/projects/1_chameleon/4.jpg"
+          "ContentType": "Photo",
+          "Name": "Хамелеон только что съел божью коровку",
+          "Link": "/projects/1_chameleon/3.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 4,
+          "ContentType": "Photo",
+          "Name": "Интерактивный киоск, с помощью которого можно отправить фотографии с хамелеоном",
+          "Link": "/projects/1_chameleon/4.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 5,
+          "ContentType": "Photo",
           "Name": "Чарлик застестянлся, спрятался и не попал в кадр",
-          "PathToPhoto": "/projects/1_chameleon/5.jpg"
+          "Link": "/projects/1_chameleon/5.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 1,
+      "Path": "/life-of-a-tree",
+      "ThumbnailImage": "/projects/2_life_of_a_tree/1.jpg",
       "Name": "Интерактивная экспозиция «Мир дерева» для Дарвиновского музея",
       "Description": "1 сентября 2014 года, в День знаний, в Государственном Дарвиновском музее открылся интерактивный образовательный центр «Познай себя - познай мир». Одной из многочисленных инсталляций данного центра стала экспозиция «Мир дерева». Основным элементом интерактивной экспозиции стала видеостена из девяти LCD панелей, изображающая берёзу на фоне леса в натуральную величину. Видеостена позволяет наблюдать за жизнью дерева в течении различных времён года, следить за протекающими биологическими процессами. Интерактивная экспозиция управляется посредством дополнительной сенсорной панели на которой посетитель может изучить все аспекты жизни дерева, а также получить исчерпывающую справку о процессах фотосинтеза, испарения и обмене питательными веществами.",
       "Tags": ["C#", "Unity3D", "Video Wall", "Multi Touch Table", "Interactive Presentation"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
+          "ContentType": "Video",
           "Name": "Видео дерева",
-          "Link": "/projects/2_life_of_a_tree/Interactive Installation for the State Darwin Museum.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Интерактивный киоск, управляющий экспозицией",
-          "PathToPhoto": "/projects/2_life_of_a_tree/1.jpg"
+          "Link": "https://www.youtube.com/embed/7PdVweygLkc"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Юный гость образовательного центра изучает жизнь дерева",
-          "PathToPhoto": "/projects/2_life_of_a_tree/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Интерактивный киоск, управляющий экспозицией",
+          "Link": "/projects/2_life_of_a_tree/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "В интерактивной экспозиции зима...",
-          "PathToPhoto": "/projects/2_life_of_a_tree/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Юный гость образовательного центра изучает жизнь дерева",
+          "Link": "/projects/2_life_of_a_tree/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
-          "Name": "Осень...",
-          "PathToPhoto": "/projects/2_life_of_a_tree/4.jpg"
+          "ContentType": "Photo",
+          "Name": "В интерактивной экспозиции зима...",
+          "Link": "/projects/2_life_of_a_tree/3.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 4,
+          "ContentType": "Photo",
+          "Name": "Осень...",
+          "Link": "/projects/2_life_of_a_tree/4.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 5,
+          "ContentType": "Photo",
           "Name": "Весна...",
-          "PathToPhoto": "/projects/2_life_of_a_tree/5.jpg"
+          "Link": "/projects/2_life_of_a_tree/5.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 2,
+      "Path": "/pyramids-for-aquiarium",
+      "ThumbnailImage": "/projects/3_pyramids_for_aquarium/1.jpg",
       "Name": "Интерактивные голографические пирамиды для Приморского океанариума",
       "Description": "К открытию Приморсого океанариума были разработаны две экспозиции с использованием голографических пирамид. Приложение носит образовательный характер и представляет собой голографическую пирамиду с объёмным изображением одноклеточных и многоклеточных организмов. Голографическое изображение управляется дополнительной сенсорной панелью. С её помощью можно выбрать интересующий вас организм, узнать всю интересующую информацию о нём, а также подробно изучить соответствующую 3D модель организма в голографической пирамиде.",
       "Tags": ["C#", "Unity3D", "Holographic Pyramid", "Multi Touch Table", "Interactive Presentation"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
+          "ContentType": "Video",
           "Name": "Видео пирамид",
-          "Link": "/projects/3_pyramids_for_aquarium/Interactive Holographic Pyramid for Primorsky aquarium.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Будущий биолог",
-          "PathToPhoto": "/projects/3_pyramids_for_aquarium/1.jpg"
+          "Link": "https://www.youtube.com/embed/PkE0DPxvf-s"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Интерфейс управляющего тачдисплея голографической пирамиды",
-          "PathToPhoto": "/projects/3_pyramids_for_aquarium/2.jpg"
+          "ContentType": "Video",
+          "Name": "Видео пирамид",
+          "Link": "https://www.youtube.com/embed/UCALAf0di6I"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "Голографические пирамиды в Приморском океанариуме",
-          "PathToPhoto": "/projects/3_pyramids_for_aquarium/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Будущий биолог",
+          "Link": "/projects/3_pyramids_for_aquarium/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
+          "ContentType": "Photo",
+          "Name": "Интерфейс управляющего тачдисплея голографической пирамиды",
+          "Link": "/projects/3_pyramids_for_aquarium/2.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 4,
+          "ContentType": "Photo",
+          "Name": "Голографические пирамиды в Приморском океанариуме",
+          "Link": "/projects/3_pyramids_for_aquarium/3.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 5,
+          "ContentType": "Photo",
           "Name": "Экспозиции одноклеточных и многоклеточных микроорганизмов",
-          "PathToPhoto": "/projects/3_pyramids_for_aquarium/4.jpg"
+          "Link": "/projects/3_pyramids_for_aquarium/4.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 3,
+      "Path": "/floors-for-aquarium",
+      "ThumbnailImage": "/projects/4_floors_for_aquarium/1.jpg",
       "Name": "Интерактивные полы для Приморского океанариума",
       "Description": "Эксклюзивно для Приморского океанариума были разработаны два интерактивных пола «Мелководные рыбки» и «Дельфины». Данную работу в отличие от сотни подобных проектов, выгодно отличают внушительные размеры. Изображение на пол проецируется при помощи четырёх проекторов. Площадь изображения 4 на 10 метров. Взаимодействие с пользователем строится на работе 4 инфракрасных камер. Для трэкинга движущся объектов в сцене был написан модуль на C++. Он использует инфракрасную картинку с камер, несколько хитрых алгоритмов отслеживания движущихся объектов и специальный алгоритм разметки. Для синхронизации нескольких камер между собой и для вычисления положения камер относительно отображаемой поверхности был написан специальный модуль калибровки. Он основан на широко известных методах калибровки на основе распознавания шаблона в виде шахматной доски. Что же касается графики, то для неё был выбран движок Unity, как очень гибкий и удобный в настройках редактор. Стоит отметить что в данном проекте примечательно ещё и то, что все анимации сделаны программно. Поведение всех рыбок запрограммировано особым образом. Именно программно сгенерированные траектории и скорости движения рыб заставляют сцену выглядеть особенно живо и реалистично. Что касается взаимодействия с пользователем, то здесь всё просто. Как только система камер видит человека, к нему в тот же момент подплывают рыбки и начинают кружить вокруг него, следуя за ним куда бы он не пошёл.",
       "Tags": ["C++", "OpenCV", "C#", "Unity3D", "Kinect", "Interactive Floor", "Object Tracking", "Depth Camera Calibration"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
+          "ContentType": "Video",
           "Name": "Видео рыбок",
-          "Link": "/projects/4_floors_for_aquarium/Interactive Floor in the Oceanarium.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Мама, а куда все рыбки разбежались?",
-          "PathToPhoto": "/projects/4_floors_for_aquarium/1.jpg"
+          "Link": "https://www.youtube.com/embed/OGpTGgAqweQ"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Интерактивный пол в Приморском Океанариуме",
-          "PathToPhoto": "/projects/4_floors_for_aquarium/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Мама, а куда все рыбки разбежались?",
+          "Link": "/projects/4_floors_for_aquarium/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
+          "ContentType": "Photo",
+          "Name": "Интерактивный пол в Приморском Океанариуме",
+          "Link": "/projects/4_floors_for_aquarium/2.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 3,
+          "ContentType": "Photo",
           "Name": "Морские обитатели интерактивного пола",
-          "PathToPhoto": "/projects/4_floors_for_aquarium/3.jpg"
+          "Link": "/projects/4_floors_for_aquarium/3.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 4,
+      "Path": "/floor-for-kravets",
+      "ThumbnailImage": "/no-photo.jpg",
       "Name": "Интерактивный пол «Стрекозы» для дома моды KRAVETS",
       "Description": "Специально для дома моды «KRAVETS» и их новой коллекции «Стрекоза» (сезон осень - зима 2014/2015) разработан интерактивный пол «Стрекозы». Взаимодействие с пользователем строится на работе инфракрасных камер. Для трэкинга движущся объектов в сцене был написан модуль на C++. Он использует инфракрасную картинку с камер, несколько хитрых алгоритмов отслеживания движущихся объектов и специальный алгоритм разметки. Для синхронизации нескольких камер между собой и для вычисления положения камер относительно отображаемой поверхности был написан специальный модуль калибровки. Он основан на широко известных методах калибровки на основе распознавания шаблона в виде шахматной доски. Что же касается графики, то для неё был выбран движок Unity, как очень гибкий и удобный в настройках редактор. Взаимодействие с пользователем происходит следующим образом. Как только система камер видит человека, к нему в тот же момент слетаются стрекозы и начинают кружить вокруг него, следуя за ним куда бы он не пошёл.",
       "Tags": ["C++", "OpenCV", "C#", "Unity3D", "Kinect", "Interactive Floor", "Object Tracking", "Depth Camera Calibration"],
       "Date": "2014-09-01",
-      "Videos": [
-      ],
-      "Photos": [
+      "Content": [
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 0,
+          "ContentType": "Video",
+          "Name": "Видео стрекоз",
+          "Link": "https://www.youtube.com/embed/Vef7YItIuXA"
+        }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 5,
+      "Path": "/diver-for-rgo",
+      "ThumbnailImage": "/projects/6_diver_for_rgo/1.jpg",
       "Name": "Видеоинсталляция «Аквалангист» для Русского географического общества",
       "Description": "С 31 октября по 6 ноября в московском Центральном доме художника на Крымском валу прошел Фестиваль Русского географического общества. Специально для фестиваля были подготовлены несколько интерактивных приложений, в числе которых видеоинсталляция «Аквалангист». Видеоинсталляция представляет собой сенсорный киоск с подключенным к нему большим дисплеем. Приложение носит образовательный характер и даёт возможность всем желающим узнать что происходит с аквалангистом на той или иной глубине. Какое давление он испытывает, сколько времени требуется на погружение и многое другое.",
       "Tags": ["C#", "Unity3D", "Interactive Presentation", "Multi Touch Table"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
+          "ContentType": "Video",
           "Name": "Видео аквалангиста",
-          "Link": "/projects/6_diver_for_rgo/Interactive Installation for the Russian Geographical Society.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Интерактивная видеоинсталляция «Аквалангист»",
-          "PathToPhoto": "/projects/6_diver_for_rgo/1.jpg"
+          "Link": "https://www.youtube.com/embed/RL3XnXq3DZA"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Интерфейс видеоинтсалляции",
-          "PathToPhoto": "/projects/6_diver_for_rgo/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Интерактивная видеоинсталляция «Аквалангист»",
+          "Link": "/projects/6_diver_for_rgo/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
+          "ContentType": "Photo",
+          "Name": "Интерфейс видеоинтсалляции",
+          "Link": "/projects/6_diver_for_rgo/2.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 3,
+          "ContentType": "Photo",
           "Name": "Видеоинсталляция привлекает и детей, и взрослых посетителей Фестиваля",
-          "PathToPhoto": "/projects/6_diver_for_rgo/3.jpg"
+          "Link": "/projects/6_diver_for_rgo/3.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 6,
+      "Path": "/quiz-for-rgo",
+      "ThumbnailImage": "/projects/7_quiz_for_rgo/1.jpg",
       "Name": "Интерактивная викторина на Фестивале Русского географического общества",
       "Description": "В этом году Русское географическое общество впервые проводило свой собственный масштабный Фестиваль в Центральном доме художника. В рамках этого мероприятия была разработана интерактивная викторина «Хорошо ли Вы знаете Россию?», в которой мог принять участие любой посетитель выставки. Инсталляция представляет собой интерактивный киоск и подсоединённый к нему большой дисплей. В ходе викторины игрокам предоставляется шанс ответить на несколько нетривиальных вопросов. Данное приложение носит как развлекательный, так и образовательный характер, благодаря которому пользователи могут узнать интересные, а порой даже удивительные факты о нашей родине.",
       "Tags": ["C#", "Unity3D", "Interactive Presentation", "Multi Touch Table"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
-          "Name": "Видео аквалангиста",
-          "Link": "/projects/7_quiz_for_rgo/Interactive Quiz for the Russian Geographical Society.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Посетители Фестиваля у интерактивного киоска викторины",
-          "PathToPhoto": "/projects/7_quiz_for_rgo/1.jpg"
+          "ContentType": "Video",
+          "Name": "Видео quiz",
+          "Link": "https://www.youtube.com/embed/ENAz_-9ipus"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Ответ на один из вопросов интерактивной викторины",
-          "PathToPhoto": "/projects/7_quiz_for_rgo/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Посетители Фестиваля у интерактивного киоска викторины",
+          "Link": "/projects/7_quiz_for_rgo/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "Промоигра «Угадай где? - Хорошо ли Вы знаете Россию?»",
-          "PathToPhoto": "/projects/7_quiz_for_rgo/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Ответ на один из вопросов интерактивной викторины",
+          "Link": "/projects/7_quiz_for_rgo/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
+          "ContentType": "Photo",
+          "Name": "Промоигра «Угадай где? - Хорошо ли Вы знаете Россию?»",
+          "Link": "/projects/7_quiz_for_rgo/3.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 4,
+          "ContentType": "Photo",
           "Name": "Президент Русского географического общества Министр обороны РФ Шойгу С.К.",
-          "PathToPhoto": "/projects/7_quiz_for_rgo/4.jpg"
+          "Link": "/projects/7_quiz_for_rgo/4.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 7,
+      "Path": "/globe-for-rgo",
+      "ThumbnailImage": "/projects/8_globe_for_rgo/1.jpg",
       "Name": "Интерактивная карта России для Русского географического общества",
       "Description": "31 октября в Москве открылся первый Фестиваль Русского географического общества. Вплоть до 6 ноября в Центральном доме художника в рамках Фестиваля проходили многочисленные тематические экспозиции, посвященные природе России и культуре населяющих ее народов. Интерактивная карта России была первым что видели посетители выставки. Она расположилась на входе в экспозиционный зал и представляла собой огромную видеостену с интерактивным сенсорным столом для управления. Экспозиция знакомит гостей с природой и достопримечательностями регионов России, рассказывает о деятельности Русского географического общества и его филиалах.",
       "Tags": ["C#", "Unity3D", "Video Wall", "Multi Touch Table", "Interactive Presentation"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
-          "Name": "Видео аквалангиста",
-          "Link": "/projects/8_globe_for_rgo/Interactive Map on Video Wall for the Russian Geographical Society.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Президент Русского географического общества Министр обороны РФ Шойгу С.К. изучает интерактивную инсталляцию",
-          "PathToPhoto": "/projects/8_globe_for_rgo/1.jpg"
+          "ContentType": "Video",
+          "Name": "Видео глобуса",
+          "Link": "https://www.youtube.com/embed/jZ4hUpXjnrs"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Посетители Фестиваля у сенсорного киоска, управляющего интерактивной картой",
-          "PathToPhoto": "/projects/8_globe_for_rgo/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Президент Русского географического общества Министр обороны РФ Шойгу С.К. изучает интерактивную инсталляцию",
+          "Link": "/projects/8_globe_for_rgo/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "Один из элементов интерфейса интерактивной инсталляции",
-          "PathToPhoto": "/projects/8_globe_for_rgo/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Посетители Фестиваля у сенсорного киоска, управляющего интерактивной картой",
+          "Link": "/projects/8_globe_for_rgo/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
+          "ContentType": "Photo",
+          "Name": "Один из элементов интерфейса интерактивной инсталляции",
+          "Link": "/projects/8_globe_for_rgo/3.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 4,
+          "ContentType": "Photo",
           "Name": "Видеостена с анимированной 3D моделью земного шара",
-          "PathToPhoto": "/projects/8_globe_for_rgo/4.jpg"
+          "Link": "/projects/8_globe_for_rgo/4.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 8,
+      "Path": "/video-wall-for-bakutel",
+      "ThumbnailImage": "/projects/9_video_wall_for_bakutel/1.jpg",
       "Name": "Интерактивная инсталляция для стенда Polymedia на выставке Bakutel",
       "Description": "Российская компания Polymedia — один из крупнейших системных интеграторов России — приняла участие в выставке «Телекоммуникации иИнформационные Технологии» Bakutel, состоявшейся в Баку. На стенде компании было представлено множество решений для визуализацииинформации, в частности, видеостена на базе светодиодов с шагом 2.8 мм. Специально для нее Студия 3D дизайна United 3D Labs разработала интерактивную инсталляцию.Одной из поставленных задач было показать великолепную цветопередачу и малый шаг видеостены, поэтому основой инсталляции служили яркие инасыщенные фото- и видеоматериалы, сама же интерактивная инсталляция могла работать в двух режимах. В первом режиме контент инсталляции реагировал на проходящих мимо видеостены людей. Стенд Polymedia располагался на одном из центральныхпроходов выставки, потому мимо видеостены постоянно ходило большое количество посетителей. Вся видеостена была разбита на 578 виртуальныхкубов, на каждую грань которых были наложены текстуры фотографий. Пока перед видеостеной не было посетителей, кубы демонстрировали грани,которые образовали одну из фотографий современного Баку. Когда же мимо стены проходили гости выставки, кубы «переворачивались» стороной,на которой были размещены черно-белые фотографии города XIX – начала XX века. При этом кубы «поворачивались» не все сразу, а соответствуяконтурам проходящих мимо людей. Управление интерактивной инсталляцией в этом режиме осуществлялось двумя программно синхронизированнымисенсорами Asus Xtion PRO (аналог Kinect, но более удобный в профессиональном применении). Во втором режиме видеостена управлялась при помощи 55'' multi touch дисплея. Основной целью этого варианта работы было продемонстрироватьвозможности управления контентом используя удаленную сенсорную панель. Гости выставки могли вывести на большую видеостену при помощи multi touch дисплея различные фото- и видеоматериалы, а также совершить виртуальныйтур по некоторым инсталляциям, реализованным компанией Polymedia. При этом переключение между двумя режимами работы системы осуществлялосьавтоматически — пользователям было достаточно прикоснуться к дисплею, чтобы интерактивная инсталляция вышла из режима управления жестамилюдей и стала воспринимать команды с multi touch дисплея. Если в течении 2-х минут пользователи не прикасались к дисплею, система самавозвращалась в режим управления сенсорами. Вообще говоря, в Баку (в отличие, например, от Москвы) очень много светодиодных экранов на зданиях города и местных жителей этим сложно удивить.Но необычные способы управления интерактивной инсталляцией привлекли значительное внимание посетителей выставки.",
       "Tags": ["C++", "OpenCV", "C#", "Unity3D", "Kinect", "Video Wall", "Multi Touch Table", "Interactive Presentation", "Interactive Floor", "Object Tracking"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
-          "Name": "Видео аквалангиста",
-          "Link": "/projects/9_video_wall_for_bakutel/Interactive Video Wall Installation for Polymedia company in Baku.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Интерактивная инсталляция в режиме управления сенсорами",
-          "PathToPhoto": "/projects/9_video_wall_for_bakutel/1.jpg"
+          "ContentType": "Video",
+          "Name": "Bakutel",
+          "Link": "https://www.youtube.com/embed/pv489IQ8He0"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Управление интерактивной инсталляцией при помощи multi touch дисплея",
-          "PathToPhoto": "/projects/9_video_wall_for_bakutel/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Интерактивная инсталляция в режиме управления сенсорами",
+          "Link": "/projects/9_video_wall_for_bakutel/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "Вращающиеся виртуальные кубы открывают грани с фотографией старого Баку",
-          "PathToPhoto": "/projects/9_video_wall_for_bakutel/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Управление интерактивной инсталляцией при помощи multi touch дисплея",
+          "Link": "/projects/9_video_wall_for_bakutel/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
-          "Name": "Смена фотографий на видеостене",
-          "PathToPhoto": "/projects/9_video_wall_for_bakutel/4.jpg"
+          "ContentType": "Photo",
+          "Name": "Вращающиеся виртуальные кубы открывают грани с фотографией старого Баку",
+          "Link": "/projects/9_video_wall_for_bakutel/3.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 4,
+          "ContentType": "Photo",
+          "Name": "Смена фотографий на видеостене",
+          "Link": "/projects/9_video_wall_for_bakutel/4.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 5,
+          "ContentType": "Photo",
           "Name": "Интерфейс multi touch дисплея, управляющего видеостеной",
-          "PathToPhoto": "/projects/9_video_wall_for_bakutel/5.jpg"
+          "Link": "/projects/9_video_wall_for_bakutel/5.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 9,
+      "Path": "/oil-derrick-ar-for-bakutel",
+      "ThumbnailImage": "/projects/10_oil_derrick_ar_for_bakutel/1.jpg",
       "Name": "Дополненная реальность с 3D трекингом реального объекта",
       "Description": "2-5 декабря в Баку Экспо Центре состоялась 20-я Юбилейная Азербайджанская Международная Выставка и Конференция«Телекоммуникации и Информационные Технологии» Bakutel, в которой приняла активное участие компания Polymedia — лидерроссийского рынка систем отображения информации. Специально для стенда компании Лаборатория компьютерной графикиUnited 3D Labs разработала приложение Дополненной реальности для iPad'а.Приложение уникально для российского рынка компьютерной графики тем, что использует технологию 3D трекинга, когда маркеромдополненной реальности является не плоское изображение, а сам реальный трехмерный объект! На подиуме была расположена физическая 3D модель нефтедобывающей платформы высотой 60 см (кстати, сама модель была изготовленана 3D принтере). Предварительно, при помощи специального программного обеспечения, 3D модель была оцифрована и создан 3D маркер.Затем этот маркер вставлен в приложение для iPad'а. Т.е., используя 3D маркер, планшет с установленной программой дополненнойреальности может совершенно точно определить, с какого именно ракурса он нацелен на 3D модель, находящуюся на стенде. Никакихдвухмерных маркеров просто не требуется! Однако, отсутствие обычных маркеров даже не самое важное преимущество. Ведь теперь система дополненной реальности может определятьракурс, с которого зритель смотрит на нефтедобывающую платформу! Все пространство вокруг 3D модели было разбито на 8 секторов,в каждом из которых была создана (и воспроизводилась) своя виртуальная трехмерная сцена. Перемещаясь вокруг модели нефтедобывающейплатформы, зритель мог наблюдать на экране планшета сменяющие друг друга анимированные 3D сцены: вертолет, летающий вокруг вышки,или подплывающий корабль; история нефтедобычи в Азербайджане или сегодняшнее состоянием отрасли; предназначение отдельных элементовплатформы и ее размеры. И маленькие, и большие посетители выставки были буквально потрясены тем, как «оживает» созданное дизайнерами Студии компьютернойграфики United 3D Labs пространство в Дополненной реальности вокруг 3D модели платформы! Стоит отметить, что демонстрация возможностей 3D трекинга на стенде компании Polymedia служила не только для развлечения посетителейвыставки. Технология Дополненной реальности открывает широчайшие перспективы для использования в производстве, образовании, сфереinfotainment. Использование реальных физических объектов в качестве маркеров вместе с возможностью установки программного обеспеченияна легкие и удобные планшеты формирует уникальные возможности для создания инструкций, демонстрации скрытых динамических процессов,разработки учебных пособий. Разумеется, компания Polymedia — ведущий системный интегратор в сфере российского образования — не моглаостаться в стороне от использования столь многообещающей технологии.",
       "Tags": ["C#", "Unity3D", "SLAM", "Augmented Reality", "3D Tracking", "3D Printing", "iOS", "Android"],
       "Date": "2014-09-01",
-      "Videos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
-          "Name": "Видео аквалангиста",
-          "Link": "/projects/10_oil_derrick_ar_for_bakutel/Markerless 3D Tracking Augmented Reality.mp4"
-        }
-      ],
-      "Photos": [
-        {
-          "IsHidden": false,
-          "OrdinalNumber": 0,
-          "Name": "Дополненная реальность с технологией 3D трэкинга",
-          "PathToPhoto": "/projects/10_oil_derrick_ar_for_bakutel/1.jpg"
+          "ContentType": "Video",
+          "Name": "Нефтедобывающая платформа",
+          "Link": "https://www.youtube.com/embed/LJUzmXr9aO0"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
-          "Name": "Приложение дополненной реальности на стенде компании Polymedia",
-          "PathToPhoto": "/projects/10_oil_derrick_ar_for_bakutel/2.jpg"
+          "ContentType": "Photo",
+          "Name": "Дополненная реальность с технологией 3D трэкинга",
+          "Link": "/projects/10_oil_derrick_ar_for_bakutel/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
-          "Name": "История нефтедобывающей отрасли Азербайджана в дополненной реальности",
-          "PathToPhoto": "/projects/10_oil_derrick_ar_for_bakutel/3.jpg"
+          "ContentType": "Photo",
+          "Name": "Приложение дополненной реальности на стенде компании Polymedia",
+          "Link": "/projects/10_oil_derrick_ar_for_bakutel/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 3,
+          "ContentType": "Photo",
+          "Name": "История нефтедобывающей отрасли Азербайджана в дополненной реальности",
+          "Link": "/projects/10_oil_derrick_ar_for_bakutel/3.jpg"
+        },
+        {
+          "IsHidden": false,
+          "OrdinalNumber": 4,
+          "ContentType": "Photo",
           "Name": "Самые маленькие посетители выставки Bakutel открывают для себя дополненную реальность",
-          "PathToPhoto": "/projects/10_oil_derrick_ar_for_bakutel/4.jpg"
+          "Link": "/projects/10_oil_derrick_ar_for_bakutel/4.jpg"
         }
       ]
     },
     {
       "IsHidden": false,
       "OrdinalNumber": 10,
+      "Path": "/multitouch-table-for-istok",
+      "ThumbnailImage": "/projects/11_interactive_presentation_for_istok/1.jpg",
       "Name": "Мультимедийная презентация АО «НПП «Исток» им. Шокина» для мульти тач стола",
       "Description": "Лаборатория компьютерной графики United 3D Labs уже не раз создавала рекламно-информационные ролики и интерактивные презентациидля крупнейшего научно-производственного предприятия. При подготовке к презентации компании на выставке «Оборонэкспо» переддизайнерами United 3D Labs встала новая задача ─ свести созданный ранее обширный и разнообразный материал воедино.Во время создания концепции презентации НПП, стало понятно, что видеостены и нескольких дисплеев, на которых будут демонстрироватьсяролики, недостаточно для демонстрации огромного количества информационных материалов предприятия, и было принято решение дополнитьвыставочный стенд современным интерактивным multi touch столом. Мультимедийным контентом для сенсорного стола стали все информационные презентационные ролики, разработанные ранее. 46-дюймовыйmulti touch стол стал незаменимым помощником во время выставки, особенно когда нужно было показать зрителям какой-либо определенныйвидеоролик. Зрителям не нужно было ждать, когда на видеостене или дисплеях будет демонстрироваться нужный им фрагмент, а использоватьинтерактивный cтол. С помощью удобного меню посетители выставки быстро находили интересующий их материал. Дизайнеры Лаборатории компьютерной графики United 3D Labs также решили разнообразить работу с сенсорным столом и внесли игровой моментв процесс его активации. Multi touch стол начинает работать, когда гость стенда прикладывает к нему руку, и происходит процесс «сканирования»отпечатков пальцев. Эта идея помогла привлечь значительное внимание гостей и участников «Оборонэкспо» к стенду. В итоге multi touch стол, представляющий собой интерактивный каталог рекламно-информационных материалов, был все время в центрезрительского внимания и даже затмил собой огромный видеоэкран стенда.",
       "Tags": ["C#", "Unity3D", "Multi Touch Table", "Interactive Presentation"],
       "Date": "2014-09-01",
-      "Videos": [
-      ],
-      "Photos": [
+      "Content": [
         {
           "IsHidden": false,
           "OrdinalNumber": 0,
+          "ContentType": "Photo",
           "Name": "текст",
-          "PathToPhoto": "/projects/11_interactive_presentation_for_istok/1.jpg"
+          "Link": "/projects/11_interactive_presentation_for_istok/1.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 1,
+          "ContentType": "Photo",
           "Name": "текст",
-          "PathToPhoto": "/projects/11_interactive_presentation_for_istok/2.jpg"
+          "Link": "/projects/11_interactive_presentation_for_istok/2.jpg"
         },
         {
           "IsHidden": false,
           "OrdinalNumber": 2,
+          "ContentType": "Photo",
           "Name": "текст",
-          "PathToPhoto": "/projects/11_interactive_presentation_for_istok/3.jpg"
+          "Link": "/projects/11_interactive_presentation_for_istok/3.jpg"
         }
       ]
     }

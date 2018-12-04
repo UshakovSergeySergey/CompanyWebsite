@@ -21,7 +21,7 @@ class NewsPage extends React.Component {
 }
 
 NewsPage.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { NewsPage };

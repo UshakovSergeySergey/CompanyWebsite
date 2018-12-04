@@ -21,7 +21,7 @@ class MainPage extends React.Component {
 }
 
 MainPage.propTypes = {
-    webSiteStructure: PropTypes.instanceOf(WebSiteStructure)
+    webSiteStructure: PropTypes.instanceOf(WebSiteStructure).isRequired
 };
 
 export { MainPage };

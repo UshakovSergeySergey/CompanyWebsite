@@ -112,3 +112,62 @@
     color: white;
     text-decoration: none;
 }
+
+.carousel-items-block {
+    padding: 0 0 0 0;
+}
+
+ol.carousel-indicators {
+    align-content: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 15px;
+    height: 15px;
+    margin: 7.5px 7.5px 7.5px 7.5px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+ol.carousel-indicators li.active {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-item-layout {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project-thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-thumbnail a {
+    text-align: center;
+    color: #333333;
+}
+.project-thumbnail a:link {
+    text-align: center;
+    color: #333333;
+}
+.project-thumbnail a:visited {
+    text-align: center;
+    color: #333333;
+}
+.project-thumbnail a:active {
+    text-align: center;
+    color: #333333;
+}
+.project-thumbnail a:hover {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

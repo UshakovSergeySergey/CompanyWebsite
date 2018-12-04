@@ -39,7 +39,7 @@ class Employee extends React.Component {
 }
 
 Employee.propTypes = {
-    data: PropTypes.instanceOf(EmployeeData)
+    data: PropTypes.instanceOf(EmployeeData).isRequired
 };
 
 export { Employee };
