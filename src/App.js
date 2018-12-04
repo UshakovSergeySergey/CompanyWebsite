@@ -18,7 +18,7 @@ class App extends Component {
         this.setState({ currentSection: section });
     };
     componentDidMount() {
-        fetch(process.env.PUBLIC_URL + '/data.json')
+        fetch('data.json')
             .then(response => response.json())
             .then(data => {
                 let parsedData = Object.assign(new WebSiteStructure(), data);

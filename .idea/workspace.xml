@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f707c801-6637-4744-b182-45ef9be01796" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,18 +18,18 @@
     <session id="-1797174453">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="47" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="26" />
+          <entry key="project.open.time.3" value="27" />
           <entry key="project.open.time.4" value="15" />
-          <entry key="project.opened" value="48" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="40" />
+          <entry key="ESLintLanguageService" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,7 +54,7 @@
         <counts>
           <entry key="css" value="416" />
           <entry key="html" value="101" />
-          <entry key="js" value="17845" />
+          <entry key="js" value="17847" />
           <entry key="json" value="6459" />
         </counts>
       </usages-collector>
@@ -62,7 +63,7 @@
           <entry key="CSS" value="416" />
           <entry key="HTML" value="101" />
           <entry key="JSON" value="6459" />
-          <entry key="JavaScript" value="17844" />
+          <entry key="JavaScript" value="17846" />
           <entry key="RegExp" value="1" />
         </counts>
       </usages-collector>
@@ -73,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="10387">
               <caret line="611" column="37" selection-start-line="611" selection-start-column="37" selection-end-line="611" selection-end-column="37" />
             </state>
           </provider>
@@ -83,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -397,16 +398,16 @@
       <workItem from="1543928640155" duration="552000" />
       <workItem from="1543929226019" duration="108000" />
       <workItem from="1543929486595" duration="33000" />
-      <workItem from="1543929769798" duration="46000" />
+      <workItem from="1543929769798" duration="154000" />
+      <workItem from="1543930027345" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116815000" />
+    <option name="totallyTimeSpent" value="116940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3568376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -590,14 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/static/js/main.74c18230.chunk.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33781" selection-start-column="33781" selection-end-column="33781" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/static/js/main.74c18230.chunk.js.map" />
     <entry file="file://$PROJECT_DIR$/src/sections/ContactsPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
@@ -705,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="10387">
           <caret line="611" column="37" selection-start-line="611" selection-start-column="37" selection-end-line="611" selection-end-column="37" />
         </state>
       </provider>
@@ -720,7 +714,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
