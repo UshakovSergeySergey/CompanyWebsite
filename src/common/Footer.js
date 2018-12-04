@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { WebSiteStructure } from '../WebSiteStructure';
 import { Link } from 'react-router-dom';
 import { Prettifier } from '../InternalDataTypes/Prettifier';
+import { Analytics, ActionTypes } from '../Analytics';
 
 class Footer extends React.Component {
     getLinksToSections = () => {
@@ -14,11 +15,16 @@ class Footer extends React.Component {
             if(currentSection === section.Path)
                 isActive = ' active';
             let sectionChanged = () => {
+                Analytics.pageChanged(section.Path);
                 this.props.sectionChanged(section.Path);
             };
             return (
                 <li className={ 'footer-nav-element' + isActive } key={ section.OrdinalNumber }>
-                    <Link className='footer-nav-element-selected' to={ process.env.PUBLIC_URL + section.Path } onClick={ sectionChanged }>{ section.Name }</Link>
+                    <Link
+                        className='footer-nav-element-selected'
+                        to={ process.env.PUBLIC_URL + section.Path }
+                        onClick={ () => { sectionChanged(); Analytics.fireEvent(ActionTypes.LinkClicked, 'Footer section \'' + section.Path + '\''); } }
+                    >{ section.Name }</Link>
                 </li>);
         });
         return (<ul className='nav navbar-nav'>{ sectionList }</ul>);
@@ -28,7 +34,12 @@ class Footer extends React.Component {
         const links = webSiteStructure.getListOfSocialMedia();
         const linkList = links.map(link => {
             return (
-                <a key={ link.OrdinalNumber } href={ link.Link } target='_blank' rel='noopener noreferrer'>
+                <a
+                    key={ link.OrdinalNumber }
+                    href={ link.Link }
+                    target='_blank' rel='noopener noreferrer'
+                    onClick={ () => { Analytics.fireEvent(ActionTypes.Outbound, link.Link, link.Link)} }
+                >
                     <img className='social-media-icon' src={ process.env.PUBLIC_URL + link.PathToImage } alt={ link.Link }/>
                 </a>
             );
@@ -64,8 +75,17 @@ class Footer extends React.Component {
                         <div className='col-xs-6' style={ { lineHeight: 1.8 } }>
                             <div className='row'>{ companyName }</div>
                             <div className='row'>{ legalAddress }</div>
-                            <div className='row footer-contacts'><a href={ 'mailto:' + email }>{ email }</a></div>
-                            <div className='row footer-contacts'><a href={ 'tel:' + phoneNumberRaw }>{ phoneNumberPretty }</a></div>
+                            <div className='row footer-contacts'>
+                                <a href={ 'mailto:' + email }
+                                   onClick={ () => { Analytics.fireEvent(ActionTypes.LinkClicked, 'Footer email address') } }
+                                >{ email }</a>
+                            </div>
+                            <div className='row footer-contacts'>
+                                <a
+                                    href={ 'tel:' + phoneNumberRaw }
+                                    onClick={ () => { Analytics.fireEvent(ActionTypes.LinkClicked, 'Footer phone number') } }
+                                >{ phoneNumberPretty }</a>
+                            </div>
                             <div className='row'>
                                 { this.getLinksToSocialMedia() }
                             </div>

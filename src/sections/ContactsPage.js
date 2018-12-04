@@ -7,6 +7,7 @@ import { Map } from '../Map';
 import { Prettifier } from '../InternalDataTypes/Prettifier';
 import { Address } from '../InternalDataTypes/Address';
 import { RequisiteName } from '../InternalDataTypes/CompanyRequisites';
+import { ActionTypes, Analytics } from '../Analytics';
 
 class ContactsPage extends React.Component {
     render() {
@@ -38,13 +39,23 @@ class ContactsPage extends React.Component {
                                 <tr>
                                     <td>Юридический телефон:</td>
                                     <td>
-                                        <span className='employee-contacts'><a href={ 'tel:' + phoneNumberRaw }>{ phoneNumberPretty }</a></span>
+                                        <span className='employee-contacts'>
+                                            <a
+                                                href={ 'tel:' + phoneNumberRaw }
+                                                onClick={ () => { Analytics.fireEvent(ActionTypes.LinkClicked, 'Contacts phone number') } }
+                                            >{ phoneNumberPretty }</a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Факс:</td>
                                     <td>
-                                        <span className='employee-contacts'><a href={ 'tel:' + faxNumberRaw }>{ faxNumberPretty }</a></span>
+                                        <span className='employee-contacts'>
+                                            <a
+                                                href={ 'tel:' + faxNumberRaw }
+                                                onClick={ () => { Analytics.fireEvent(ActionTypes.LinkClicked, 'Contacts fax number') } }
+                                            >{ faxNumberPretty }</a>
+                                        </span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -66,7 +77,11 @@ class ContactsPage extends React.Component {
                                 <tr>
                                     <td>Адрес электронной почты:</td>
                                     <td>
-                                        <span className='employee-contacts'><a href={ 'mailto:' + email }>{ email }</a></span>
+                                        <span className='employee-contacts'>
+                                            <a
+                                                href={ 'mailto:' + email }
+                                                onClick={ () => { Analytics.fireEvent(ActionTypes.LinkClicked, 'Contacts email address') } }
+                                            >{ email }</a></span>
                                     </td>
                                 </tr>
                             </tbody>
