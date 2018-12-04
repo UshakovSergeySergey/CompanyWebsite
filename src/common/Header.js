@@ -70,7 +70,7 @@ class Header extends React.Component {
                                 to={ process.env.PUBLIC_URL + SectionPathEnum.Main }
                                 onClick={ () => { goToMainSection(); Analytics.fireEvent(ActionTypes.LinkClicked, 'Header logo')} }
                             >
-                                <img className='navbar-brand' style={ { height: '128px', width: '128px' } } src='/logo.svg' alt={ companyName } />
+                                <img className='navbar-brand' style={ { height: '128px', width: '128px' } } src={ process.env.PUBLIC_URL + '/logo.svg' } alt={ companyName } />
                             </Link>
                         </div>
                         <div className='col-xs-4 header-contacts'>
